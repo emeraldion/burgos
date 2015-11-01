@@ -1,71 +1,74 @@
-html
-{
-	font-family: "Lucida Grande", "Trebuchet MS", Arial, sans-serif;
-	font-size: 9pt;
-}
+@media print {
 
-h1
-{
-	font-size: 14pt;
-}
+  html
+  {
+  	font-family: "Lucida Grande", "Trebuchet MS", Arial, sans-serif;
+  	font-size: 9pt;
+  }
 
-h2
-{
-	font-size: 12pt;
-}
+  h1
+  {
+  	font-size: 14pt;
+  }
 
-th,
-td
-{
-	padding: 2px 8px;
-}
+  h2
+  {
+  	font-size: 12pt;
+  }
 
-.row0
-{
-}
-.row1
-{
+  th,
+  td
+  {
+  	padding: 2px 8px;
+  }
 
-}
+  .row0
+  {
+  }
+  .row1
+  {
 
-a
-{
-	color: #000;
-	text-decoration: none;
-}
+  }
 
-a img
-{
-	border: none;
-}
+  a
+  {
+  	color: #000;
+  	text-decoration: none;
+  }
 
-.info
-{
-	color: #999;
-	font-size: 8pt;
-}
+  a img
+  {
+  	border: none;
+  }
 
-a:after
-{
-	/*content: "<" attr(href) ">";*/
-}
+  .info
+  {
+  	color: #999;
+  	font-size: 8pt;
+  }
 
-p#credits
-{
-	text-align: center;
-	padding-top: 1em;
-	border-top: 1px dotted #ccc;
-	margin-top: 2em;
-}
+  a:after
+  {
+  	/*content: "<" attr(href) ">";*/
+  }
 
-div.relevance
-{
-	height: 10px;
-	background: transparent url("/img/relevance.png") repeat-x 0 0;
-}
-p#validation-info,
-div#feeds,
-.noprint
-{
-	display: none;
+  p#credits
+  {
+  	text-align: center;
+  	padding-top: 1em;
+  	border-top: 1px dotted #ccc;
+  	margin-top: 2em;
+  }
+
+  div.relevance
+  {
+  	height: 10px;
+  	background: transparent url("/img/relevance.png") repeat-x 0 0;
+  }
+  p#validation-info,
+  div#feeds,
+  .noprint
+  {
+  	display: none;
+  }
 }
