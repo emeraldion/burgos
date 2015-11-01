@@ -1,0 +1,19 @@
+{
+  "name": "burgos",
+  "version": "1.0.0",
+  "description": "Front-end for project Burgos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emeraldion/burgos-ux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emeraldion/burgos-ux/issues"
+  },
+  "homepage": "https://github.com/emeraldion/burgos-ux#readme"
+}
