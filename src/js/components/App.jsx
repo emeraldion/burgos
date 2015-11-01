@@ -1,5 +1,6 @@
 var React = require('react'),
   Header = require('./Header.jsx'),
+  Content = require('./Content.jsx'),
   Footer = require('./Footer.jsx');
 
 var App = React.createClass({
@@ -7,7 +8,7 @@ var App = React.createClass({
     return (
       <div>
         <Header />
-        <main></main>
+        <Content />
         <Footer />
       </div>
     );
