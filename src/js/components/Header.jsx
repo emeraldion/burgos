@@ -7,7 +7,7 @@ var Header = React.createClass({
     return (
       <header>
         <h1>
-          <a href="http://www.emeraldion.it/software/macosx/minibatterylogger.html">MiniBatteryLogger</a> — Shared Battery Data Archive
+          <a href="http://www.emeraldion.it/software/macosx/minibatterylogger.html">MiniBatteryLogger</a> - Shared Battery Data Archive
         </h1>
       </header>
     );

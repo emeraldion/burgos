@@ -15,7 +15,7 @@ var Footer = React.createClass({
           </a>
   			</p>
   			<p id="credits">
-  				<a href="http://www.emeraldion.it">Emeraldion Lodge</a> © 2001-2015 Claudio Procida
+  				<a href="http://www.emeraldion.it">Emeraldion Lodge</a> (c) 2001-2015 Claudio Procida
   			</p>
   			<p id="disclaimer">
   				Apple, the Apple logo, Macintosh, Mac OS, MacBook, MacBook Pro, MacBook Air, iBook and PowerBook are registered trademark of Apple Inc.
