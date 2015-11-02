@@ -1,14 +1,16 @@
-var React = require('react');
+var React = require('react'),
+  Toolbar = require('./Toolbar.jsx');
 
 var Content = React.createClass({
   render: function() {
     return (
       <main>
         <h2>Welcome to the Shared Battery Data Archive!</h2>
+        <Toolbar />
         <div className="hw_classes">
 
   				<div className="media hw_class">
-						<img className="media-figure hw_icon" src="./img/hw/macbookpro.png" alt="MacBook Pro Family" />
+						<img className="media-figure hw_icon" src="/img/hw/macbookpro.png" alt="MacBook Pro Family" />
             <div className="media-body">
   						<h3>MacBook Pro Family</h3>
   						<ul className="hw_list">
@@ -21,7 +23,7 @@ var Content = React.createClass({
   				</div>
 
   				<div className="media hw_class">
-						<img className="media-figure hw_icon" src="./img/hw/macbook.png" alt="MacBook Family" />
+						<img className="media-figure hw_icon" src="/img/hw/macbook.png" alt="MacBook Family" />
             <div className="media-body">
   						<h3>MacBook Family</h3>
   						<ul className="hw_list">
@@ -35,7 +37,7 @@ var Content = React.createClass({
   				</div>
 
   				<div className="media hw_class">
-						<img className="media-figure hw_icon" src="./img/hw/macbookair.png" alt="MacBook Air Family" />
+						<img className="media-figure hw_icon" src="/img/hw/macbookair.png" alt="MacBook Air Family" />
             <div className="media-body">
   						<h3>MacBook Air Family</h3>
   						<ul className="hw_list">
@@ -49,7 +51,7 @@ var Content = React.createClass({
   				</div>
 
   				<div className="media hw_class">
-						<img className="media-figure hw_icon" src="./img/hw/powerbook.png" alt="Powerbook Family" />
+						<img className="media-figure hw_icon" src="/img/hw/powerbook.png" alt="Powerbook Family" />
             <div className="media-body">
   						<h3>PowerBook Family</h3>
   						<ul className="hw_list">
@@ -63,7 +65,7 @@ var Content = React.createClass({
   				</div>
 
   				<div className="media hw_class">
-						<img className="media-figure hw_icon" src="./img/hw/ibook.png" alt="iBook Family" />
+						<img className="media-figure hw_icon" src="/img/hw/ibook.png" alt="iBook Family" />
             <div className="media-body">
   						<h3>iBook Family</h3>
   						<ul className="hw_list">
