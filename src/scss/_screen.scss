@@ -180,3 +180,36 @@ th a.sort_up
   width: 88px;
   height: 31px;
 }
+
+.hw_classes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.archive_info {
+  flex: 1;
+  min-width: 350px;
+  padding: 10px;
+  margin: 0 20px 20px 0;
+  min-height: 175px;
+}
+
+.hw_class {
+  @extend .archive_info;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-figure {
+  margin-right: 1em;
+}
+
+.media-body {
+  flex: 1;
+}
