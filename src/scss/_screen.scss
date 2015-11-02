@@ -199,6 +199,10 @@ th a.sort_up
   @extend .archive_info;
   background-color: #eee;
   border-radius: 10px;
+
+  ul {
+    padding-left: 10px;
+  }
 }
 
 .media {
