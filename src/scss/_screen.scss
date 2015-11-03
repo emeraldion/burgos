@@ -10,7 +10,7 @@ h1
 	padding: 1em 0 1em 60px;
 	border-bottom: 1px dotted #ccc;
 	margin-bottom: 2em;
-	background: transparent url("../../img/mbl-icon.png") no-repeat left top;
+	background: transparent url("/img/mbl-icon.png") no-repeat left top;
 }
 
 h2
@@ -46,13 +46,13 @@ a img
 a.external
 {
 	padding-right: 14px;
-	background: transparent url("../../img/external12.gif") no-repeat center right;
+	background: transparent url("/img/external12.gif") no-repeat center right;
 }
 
 a.refine
 {
 	padding-right: 14px;
-	background: transparent url("../../img/refine_arr12.gif") no-repeat center right;
+	background: transparent url("/img/refine_arr12.gif") no-repeat center right;
 }
 
 .info
@@ -82,17 +82,17 @@ div#feeds
 a.rss
 {
 	padding-left: 14px;
-	background: transparent url("../../img/rss.png") no-repeat left center;
+	background: transparent url("/img/rss.png") no-repeat left center;
 }
 a.discuss
 {
 	padding-left: 14px;
-	background: transparent url("../../img/discuss.png") no-repeat left center;
+	background: transparent url("/img/discuss.png") no-repeat left center;
 }
 a.question
 {
 	padding-left: 14px;
-	background: transparent url("../../img/question.png") no-repeat left center;
+	background: transparent url("/img/question.png") no-repeat left center;
 }
 a:hover
 {
@@ -101,7 +101,7 @@ a:hover
 div.relevance
 {
 	height: 10px;
-	background: transparent url("../../img/relevance.png") repeat-x 0 0;
+	background: transparent url("/img/relevance.png") repeat-x 0 0;
 }
 div.pager
 {
@@ -118,7 +118,7 @@ p.pages
 	padding: 4px 0;
 	text-align: center;
 	margin: 0;
-	background: transparent url("../../img/pager-bg.png") no-repeat center center;
+	background: transparent url("/img/pager-bg.png") no-repeat center center;
 }
 a.pager-next,
 a.pager-previous
@@ -163,11 +163,11 @@ th a.sort_down,
 th a.sort_up
 {
 	padding-left: 16px;
-	background: transparent url("../../img/sort_down.png") no-repeat center left;
+	background: transparent url("/img/sort_down.png") no-repeat center left;
 }
 th a.sort_up
 {
-	background-image: url("../../img/sort_up.png");
+	background-image: url("/img/sort_up.png");
 }
 
 #disclaimer {
